@@ -29,7 +29,7 @@ to use the same construction code to obtain different representations of objects
 #### Prototype
 [Prototype](patterns/creational/prototype.py) allows you to copy objects without going into the details of their
 implementation.
-### Структурные паттерны проектирования:
+### Structural Design Patterns:
 Responsible for building maintainable class hierarchies
 ### Adapter
 [Adapter](patterns/structural/adapter.py) allows objects with incompatible interfaces to work together.
