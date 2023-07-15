@@ -2,15 +2,15 @@
 ## Algorithms
 ### Sorting algorithms
 #### Sorting algorithm selection criteria
-| Criteria                                    | Sorting algorithm                      |
-|:------------------------------------------- |:-------------------------------------- |
-| Only a few items                            | Insertion sort                         |
-| The elements are almost sorted already      | Insertion sort                         |
-| Worst case performance matters              | Heapsort                               |
-| Performance is important in the middle case | [Quick sort](algorithms/quick_sort.py) |
-| Evenly distributed elements                 | Block sort                             |
-| As little code as possible                  | Insertion sort                         |
-| Sort stability required                     | [Merge sort](algorithms/merge_sort.py) |
+| Criteria                                    | Sorting algorithm                              |
+|:------------------------------------------- |:-----------------------------------------------|
+| Only a few items                            | Insertion sort                                 |
+| The elements are almost sorted already      | Insertion sort                                 |
+| Worst case performance matters              | Heapsort                                       |
+| Performance is important in the middle case | [Quick sort](algorithms/sorting/quick_sort.py) |
+| Evenly distributed elements                 | Block sort                                     |
+| As little code as possible                  | Insertion sort                                 |
+| Sort stability required                     | [Merge sort](algorithms/sorting/merge_sort.py) |
 
 ## Design patterns
 ### Creational Design Patterns:
