@@ -3,17 +3,18 @@
 ## Algorithms
 
 ### Sorting algorithms
-[Bubble sort](algorithms/sorting/bubble_sort.py)
+[Bubble sort](algorithms/sorting/bubble_sort.py)  **best case 0(n), average and worst case O(n^2)**
 
-[Insertion sort](algorithms/sorting/insertion_sort.py)
+[Insertion sort](algorithms/sorting/insertion_sort.py)  **best case 0(n), average and worst case O(n^2)**
 
-[Merge sort](algorithms/sorting/merge_sort.py)
+[Merge sort](algorithms/sorting/merge_sort.py)  **best, average and worst case O(n * log2 n)**
 
-[Selection sort](algorithms/sorting/selection_sort.py)
+[Selection sort](algorithms/sorting/selection_sort.py) **worst case, average case, best case O(n^2)**
 
-[Quick sort](algorithms/sorting/quick_sort.py)
+[Quick sort](algorithms/sorting/quick_sort.py)  **best case O(n * log2 n), worst case O(n^2)**
 
-#### Sorting algorithm selection criteria
+**Sorting algorithm selection criteria**
+
 | Criteria                                    | Sorting algorithm                                      |
 |:------------------------------------------- |:-------------------------------------------------------|
 | Only a few items                            | [Insertion sort](algorithms/sorting/insertion_sort.py) |
@@ -27,7 +28,7 @@
 ## Design patterns
 
 ### Creational Design Patterns:
-Responsible for convenient and secure object creation
+> Responsible for convenient and secure object creation
 
 [Singleton](patterns/creational/singleton.py) guarantees that there is only one instance of the class.
 
@@ -44,6 +45,6 @@ to use the same construction code to obtain different representations of objects
 implementation.
 
 ### Structural Design Patterns:
-Responsible for building maintainable class hierarchies
+> Responsible for building maintainable class hierarchies
 
 [Adapter](patterns/structural/adapter.py) allows objects with incompatible interfaces to work together.
