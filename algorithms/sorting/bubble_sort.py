@@ -1,10 +1,6 @@
-def bubble_sort(array: list) -> None:
+def bubble_sort(items: list) -> None:
     # best case O(n)
     # average and worst case O(n**2)
-    is_sorted = False
-    while not is_sorted:
-        is_sorted = True
-        for i in range(len(array) - 1):
-            if array[i] > array[i + 1]:
-                array[i], array[i + 1] = array[i + 1], array[i]
-                is_sorted = False
+    for i in range(len(items) - 1):
+        if items[i] > items[i + 1]:
+            items[i], items[i + 1] = items[i + 1], items[i]

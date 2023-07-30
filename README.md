@@ -1,4 +1,4 @@
-# personal development plan
+# Personal development plan
 
 ## Algorithms
 
