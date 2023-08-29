@@ -7,8 +7,9 @@ def insert(array: list, position: int, item: Any) -> None:
         i -= 1
     array[i+1] = item
 
-def insertion_sort(array: list) -> None:
+def insertion_sort(array: list) -> list:
     # best case O(n)
     # average and worst case O(n**2)
     for i in range(len(array)):
         insert(array, i, array[i])
+    return list
